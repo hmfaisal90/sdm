@@ -1,1 +1,12 @@
-testing the repo
+GIT COMMAND:
+
+
+git init
+git remote add origin git@github.com:hmfaisal90/sdm.git
+
+git checkout -b "your_branch_name"
+
+git pull origin master
+git push -u origin "your branch name"
+
+
