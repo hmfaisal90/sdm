@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_IVW5ICHtEeWoXfkjzkBxHg" comment="connectionComment" label="connectionLabel" dataPackage="_IVW5ISHtEeWoXfkjzkBxHg"/>
+  <TalendMetadata:GenericPackage xmi:id="_IVW5ISHtEeWoXfkjzkBxHg" dataManager="_IVW5ICHtEeWoXfkjzkBxHg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_IVW5IiHtEeWoXfkjzkBxHg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgMCHtEeWoXfkjzkBxHg" name="CRC32" id="142" label="CRC32" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgMSHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgMiHtEeWoXfkjzkBxHg" name="lastAccessTime" id="143" label="lastAccessTime" sourceType="" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_IVXgMyHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgNCHtEeWoXfkjzkBxHg" name="lastModifiedTime" id="144" label="lastModifiedTime" sourceType="" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_IVXgNSHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgNiHtEeWoXfkjzkBxHg" name="creationTime" id="145" label="creationTime" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgNyHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgOCHtEeWoXfkjzkBxHg" name="rootFolder" id="146" label="rootFolder" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgOSHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgOiHtEeWoXfkjzkBxHg" name="subFolder0" id="147" label="subFolder0" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgOyHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgPCHtEeWoXfkjzkBxHg" name="subFolder1" id="148" label="subFolder1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgPSHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgPiHtEeWoXfkjzkBxHg" name="subFolder2" id="149" label="subFolder2" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgPyHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgQCHtEeWoXfkjzkBxHg" name="subFolder3" id="150" label="subFolder3" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgQSHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgQiHtEeWoXfkjzkBxHg" name="subFolder4" id="151" label="subFolder4" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgQyHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgRCHtEeWoXfkjzkBxHg" name="subFolder5" id="152" label="subFolder5" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgRSHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgRiHtEeWoXfkjzkBxHg" name="subFolder6" id="153" label="subFolder6" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgRyHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgSCHtEeWoXfkjzkBxHg" name="subFolder7" id="154" label="subFolder7" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgSSHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgSiHtEeWoXfkjzkBxHg" name="subFolder8" id="155" label="subFolder8" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgSyHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgTCHtEeWoXfkjzkBxHg" name="subFolder9" id="156" label="subFolder9" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgTSHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgTiHtEeWoXfkjzkBxHg" name="fileName" id="157" label="fileName" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgTyHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgUCHtEeWoXfkjzkBxHg" name="fileExtension" id="158" label="fileExtension" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgUSHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgUiHtEeWoXfkjzkBxHg" name="celltype" id="159" label="celltype" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgUyHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgVCHtEeWoXfkjzkBxHg" name="measurementLocation" id="160" label="measurementLocation" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgVSHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgViHtEeWoXfkjzkBxHg" name="measurementPosition" id="161" label="measurementPosition" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgVyHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgWCHtEeWoXfkjzkBxHg" name="measurementTime" id="162" label="measurementTime" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgWSHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgWiHtEeWoXfkjzkBxHg" name="cultureMedium" id="163" label="cultureMedium" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgWyHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgXCHtEeWoXfkjzkBxHg" name="lens" id="164" label="lens" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgXSHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgXiHtEeWoXfkjzkBxHg" name="File" id="169" label="File" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgXyHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgYCHtEeWoXfkjzkBxHg" name="objective" id="165" label="objective" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgYSHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgYiHtEeWoXfkjzkBxHg" name="Zelltyp" id="166" label="Zelltyp" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgYyHtEeWoXfkjzkBxHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVXgZCHtEeWoXfkjzkBxHg" name="suspensionMedium" id="168" label="suspensionMedium" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_IVXgZSHtEeWoXfkjzkBxHg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

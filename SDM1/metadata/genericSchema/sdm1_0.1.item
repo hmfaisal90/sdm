@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_K7un0CHUEeWvboNrMr7Aig" comment="connectionComment" label="connectionLabel" dataPackage="_K7un0SHUEeWvboNrMr7Aig"/>
+  <TalendMetadata:GenericPackage xmi:id="_K7un0SHUEeWvboNrMr7Aig" dataManager="_K7un0CHUEeWvboNrMr7Aig">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_K7un0iHUEeWvboNrMr7Aig" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7un0yHUEeWvboNrMr7Aig" name="CRC32" id="25" label="CRC32" sourceType="" talendType="id_Character">
+        <initialValue xmi:id="_K7wdACHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdASHUEeWvboNrMr7Aig" name="lastAccessTime" id="26" label="lastAccessTime" sourceType="" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_K7wdAiHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdAyHUEeWvboNrMr7Aig" name="lastModifiedTime" id="27" label="lastModifiedTime" sourceType="" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_K7wdBCHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdBSHUEeWvboNrMr7Aig" name="creationTime" id="28" label="creationTime" sourceType="" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_K7wdBiHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdByHUEeWvboNrMr7Aig" name="rootFolder" id="29" label="rootFolder" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdCCHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdCSHUEeWvboNrMr7Aig" name="subFolder0" id="30" label="subFolder0" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdCiHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdCyHUEeWvboNrMr7Aig" name="subFolder1" id="31" label="subFolder1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdDCHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdDSHUEeWvboNrMr7Aig" name="subFolder2" id="32" label="subFolder2" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdDiHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdDyHUEeWvboNrMr7Aig" name="subFolder3" id="33" label="subFolder3" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdECHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdESHUEeWvboNrMr7Aig" name="subFolder4" id="34" label="subFolder4" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdEiHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdEyHUEeWvboNrMr7Aig" name="subFolder5" id="35" label="subFolder5" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdFCHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdFSHUEeWvboNrMr7Aig" name="subFolder6" id="36" label="subFolder6" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdFiHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdFyHUEeWvboNrMr7Aig" name="subFolder7" id="37" label="subFolder7" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdGCHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdGSHUEeWvboNrMr7Aig" name="subFolder8" id="38" label="subFolder8" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdGiHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdGyHUEeWvboNrMr7Aig" name="subFolder9" id="39" label="subFolder9" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdHCHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdHSHUEeWvboNrMr7Aig" name="fileName" id="40" label="fileName" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdHiHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdHyHUEeWvboNrMr7Aig" name="fileExtension" id="41" label="fileExtension" sourceType="" talendType="id_Character">
+        <initialValue xmi:id="_K7wdICHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdISHUEeWvboNrMr7Aig" name="growthMedium" id="42" label="growthMedium" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdIiHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdIyHUEeWvboNrMr7Aig" name="measurementPosition" id="43" label="measurementPosition" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdJCHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdJSHUEeWvboNrMr7Aig" name="measurementTime" id="44" label="measurementTime" sourceType="" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_K7wdJiHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdJyHUEeWvboNrMr7Aig" name="objective" id="45" label="objective" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdKCHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdKSHUEeWvboNrMr7Aig" name="Zelltyp" id="46" label="Zelltyp" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdKiHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdKyHUEeWvboNrMr7Aig" name="File" id="47" label="File" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdLCHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdLSHUEeWvboNrMr7Aig" name="Location" id="48" label="Location" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7wdLiHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7wdLyHUEeWvboNrMr7Aig" name="newColumn24" id="49" label="newColumn24" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7xEECHUEeWvboNrMr7Aig"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K7xEESHUEeWvboNrMr7Aig" name="newColumn25" id="50" label="newColumn25" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K7xEEiHUEeWvboNrMr7Aig"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
