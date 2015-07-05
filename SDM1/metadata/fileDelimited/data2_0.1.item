@@ -27,7 +27,6 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hQ3SriIoEeWOUtsOS36EsA" label="cultureMedium" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hQ3SryIoEeWOUtsOS36EsA" label="lens" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hQ3SsCIoEeWOUtsOS36EsA" label="_File_location" length="152" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hQ3SsSIoEeWOUtsOS36EsA" label="Column24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
