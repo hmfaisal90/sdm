@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_9=>" expression="StringHandling.EREPLACE(row9.creationTime,&quot;,&quot;,&quot;&quot;)">
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_9=>" expression="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,Var.ct)">
   <variables name="row9.CRC32" value="null" talendType="id_String" nullable="true"/>
   <variables name="row9.lastAccessTime" value="null" talendType="id_String" nullable="true"/>
   <variables name="row9.lastModifiedTime" value="null" talendType="id_String" nullable="true"/>
@@ -49,4 +49,7 @@
   <variables name="TalendDate.parseDate(&quot;dd-MM-yyyy&quot;,Var.lat) " value="null" talendType="id_Date"/>
   <variables name="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,TalendDate.parseDate(&quot;dd-MM-yyyy&quot;,Var.lat)) " value="null" talendType="id_Date"/>
   <variables name="StringHandling.EREPLACE(row9.lastModifiedTime,&quot;,&quot;,&quot;&quot;) " value="null" talendType="id_String"/>
+  <variables name="StringHandling.EREPLACE(row9.creationTime,&quot;,&quot;,&quot;&quot;) " value="null" talendType="id_String"/>
+  <variables name="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,Var.lat) " value="null" talendType="id_Date"/>
+  <variables name="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,Var.lmt) " value="null" talendType="id_Date"/>
 </expression:EMFExpression>
