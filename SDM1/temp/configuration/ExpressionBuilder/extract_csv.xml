@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row1.CRC32  , row2.CRC32">
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_9=>" expression="StringHandling.EREPLACE(row9.creationTime,&quot;,&quot;,&quot;&quot;)">
   <variables name="row9.CRC32" value="null" talendType="id_String" nullable="true"/>
   <variables name="row9.lastAccessTime" value="null" talendType="id_String" nullable="true"/>
   <variables name="row9.lastModifiedTime" value="null" talendType="id_String" nullable="true"/>
@@ -17,69 +17,36 @@
   <variables name="row9.subFolder9" value="null" talendType="id_String" nullable="true"/>
   <variables name="row9.fileName" value="null" talendType="id_String" nullable="true"/>
   <variables name="row9.fileExtension" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row9.growthMedium" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row9._File_location" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row9.measurementLocation" value="null" talendType="id_String" nullable="true"/>
   <variables name="row9.measurementPosition" value="null" talendType="id_String" nullable="true"/>
   <variables name="row9.measurementTime" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row9.objective" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row9.celltype" value="null" talendType="id_String" nullable="true"/>
   <variables name="row9.Zelltyp" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row9._File_location" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row9.Column23" value="null" talendType="id_String" nullable="true"/>
-  <variables name="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,&quot;&quot;)row9.lastAccessTime " value="null" talendType="id_String"/>
-  <variables name="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,&quot;&quot;)row9.lastModifiedTime " value="null" talendType="id_String"/>
-  <variables name="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,&quot;&quot;)row9.creationTime " value="null" talendType="id_String" nullable="true"/>
-  <variables name="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,&quot;row9.lastAccessTime&quot;) " value="null" talendType="id_String" nullable="true"/>
-  <variables name="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,&quot;row9.lastModifiedTime&quot;) " value="null" talendType="id_String" nullable="true"/>
-  <variables name="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,row9.creationTime)) " value="null" talendType="id_String" nullable="true"/>
-  <variables name="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,&quot;row9.creationTime&quot;) " value="null" talendType="id_String" nullable="true"/>
-  <variables name="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,row9.lastAccessTime)) " value="null" talendType="id_String" nullable="true"/>
-  <variables name="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,row9.lastModifiedTime)) " value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.CRC32" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.lastAccessTime" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.lastModifiedTime" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.creationTime" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.rootFolder" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.subFolder0" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.subFolder1" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.subFolder2" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.subFolder3" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.subFolder4" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.subFolder5" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.subFolder6" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.subFolder7" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.subFolder8" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.subFolder9" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.fileName" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.fileExtension" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.growthMedium" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.measurementPosition" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.measurementTime" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.objective" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.Zelltyp" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1._File_location" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row1.Column23" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.CRC32" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.lastAccessTime" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.lastModifiedTime" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.creationTime" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.rootFolder" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.subFolder0" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.subFolder1" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.subFolder2" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.subFolder3" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.subFolder4" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.subFolder5" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.subFolder6" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.subFolder7" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.subFolder8" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.subFolder9" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.fileName" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.fileExtension" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.celltype" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.measurementLocation" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.measurementPosition" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.measurementTime" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.cultureMedium" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.lens" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2._File_location" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row2.Column24" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row9.lens" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row9.objective" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row9.suspensionMedium" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row9.cultureMedium" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row9.growthMedium" value="null" talendType="id_String" nullable="true"/>
+  <variables name="((row9.celltype == null) ? &quot;&quot; : row9.celltype) " value="null" talendType="id_String"/>
+  <variables name="" value="null" talendType="id_String"/>
+  <variables name="((row9.Zelltyp == null) ? &quot;&quot; : row9.Zelltyp) " value="null" talendType="id_String"/>
+  <variables name="((row9.measurementLocation == null) ? &quot;&quot; : row9.measurementLocation) " value="null" talendType="id_String"/>
+  <variables name="((row9.measurementPosition == null) ? &quot;&quot; : row9.measurementPosition) " value="null" talendType="id_String"/>
+  <variables name="((row9.measurementTime == null) ? &quot;&quot; : row9.measurementTime) " value="null" talendType="id_String"/>
+  <variables name="((row9.lens == null) ? &quot;&quot; : row9.lens) " value="null" talendType="id_String"/>
+  <variables name="((row9.objective == null) ? &quot;&quot; : row9.objective) " value="null" talendType="id_String"/>
+  <variables name="((row9.suspensionMedium == null) ? &quot;&quot; : row9.suspensionMedium) " value="null" talendType="id_String"/>
+  <variables name="((row9.cultureMedium == null) ? &quot;&quot; : row9.cultureMedium) " value="null" talendType="id_String"/>
+  <variables name="((row9.growthMedium == null) ? &quot;&quot; : row9.growthMedium) " value="null" talendType="id_String"/>
+  <variables name="name39" value="value39"/>
+  <variables name="TalendString.removeAccents(&quot;,&quot;,&quot;row9.lastAccessTime&quot;) " value="null" talendType="id_String"/>
+  <variables name="StringHandling.EREPLACE(&quot;,&quot;,&quot;&quot;,&quot;row9.lastAccessTime&quot;) " value="null" talendType="id_String"/>
+  <variables name="StringHandling.EREPLACE(row9.lastAccessTime,&quot;,&quot;,&quot;&quot;) " value="null" talendType="id_String"/>
+  <variables name="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,&quot;lat&quot;) " value="null" talendType="id_String"/>
+  <variables name="TalendDate.formatDate(&quot;yyyy-MM-dd&quot;,lat)  Var.lat " value="null" talendType="id_String"/>
+  <variables name="TalendDate.formatDate(&quot;yyyy-MM-dd&quot;,Var.lat) " value="null" talendType="id_String"/>
+  <variables name="TalendDate.parseDate(&quot;dd-MM-yyyy&quot;,Var.lat) " value="null" talendType="id_Date"/>
+  <variables name="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,TalendDate.parseDate(&quot;dd-MM-yyyy&quot;,Var.lat)) " value="null" talendType="id_Date"/>
+  <variables name="StringHandling.EREPLACE(row9.lastModifiedTime,&quot;,&quot;,&quot;&quot;) " value="null" talendType="id_String"/>
 </expression:EMFExpression>

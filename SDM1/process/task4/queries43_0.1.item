@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;/var/www/html/TOS/TOS_BD-20150508_1414-V5.6.2/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value=""/>
+    <routinesParameter id="_ryBMYCGoEeWnP56jEsC7xA" name="DataOperation"/>
+    <routinesParameter id="_rzYeUCGoEeWnP56jEsC7xA" name="Mathematical"/>
+    <routinesParameter id="_rzkrkCGoEeWnP56jEsC7xA" name="Numeric"/>
+    <routinesParameter id="_rznH0CGoEeWnP56jEsC7xA" name="Relational"/>
+    <routinesParameter id="_rziPUCGoEeWnP56jEsC7xA" name="StringHandling"/>
+    <routinesParameter id="_rzo9ACGoEeWnP56jEsC7xA" name="TalendDataGenerator"/>
+    <routinesParameter id="_rzgaICGoEeWnP56jEsC7xA" name="TalendDate"/>
+    <routinesParameter id="_rzSXsCGoEeWnP56jEsC7xA" name="TalendString"/>
+  </parameters>
+  <node componentName="tMongoDBConnection" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMongoDBConnection_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="/var/www/html/TOS/TOS_BD-20150508_1414-V5.6.2/configuration/lib/java"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MONGODB_2_6_X"/>
+    <elementParameter field="CHECK" name="USE_REPLICA_SET" value="false"/>
+    <elementParameter field="TABLE" name="REPLICA_SET"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="27017"/>
+    <elementParameter field="TEXT" name="DATABASE" value="&quot;load&quot;"/>
+    <elementParameter field="CHECK" name="USE_SSL" value="false"/>
+    <elementParameter field="CHECK" name="SET_READ_PREFERENCE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="READ_PREFERENCE" value="PRIMARY"/>
+    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="false"/>
+    <elementParameter field="TEXT" name="USERNAME" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="0RMsyjmybrE="/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMongoDBInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMongoDBInput_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="/var/www/html/TOS/TOS_BD-20150508_1414-V5.6.2/configuration/lib/java"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMongoDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MONGODB_2_1_2"/>
+    <elementParameter field="CHECK" name="USE_REPLICA_SET" value="false"/>
+    <elementParameter field="TABLE" name="REPLICA_SET"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="27017"/>
+    <elementParameter field="TEXT" name="DATABASE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_SSL" value="false"/>
+    <elementParameter field="CHECK" name="SET_READ_PREFERENCE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="READ_PREFERENCE" value="PRIMARY"/>
+    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="false"/>
+    <elementParameter field="TEXT" name="USERNAME" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="0RMsyjmybrE="/>
+    <elementParameter field="TEXT" name="COLLECTION" value="&quot;biodata&quot;"/>
+    <elementParameter field="MEMO" name="QUERY" value="&quot;{GrowthMedium:'Gelatine'}.count()&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="CRC32"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="lastAccessTime"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="lastModifiedTime"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="creationTime"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="rootFolder"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder0"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder1"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder2"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder3"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder4"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder5"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder6"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder7"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder8"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder9"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="fileName"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="fileExtension"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_File_location"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Location"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Duration"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="celltype"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="objective_lens"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GrowthMedium"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="SORT"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tMongoDBInput_1">
+      <column comment="" key="false" length="0" name="CRC32" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lastAccessTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lastModifiedTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="creationTime" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="rootFolder" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder0" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder1" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder2" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder3" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder4" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder5" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder6" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder7" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder8" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder9" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="fileName" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="fileExtension" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="139" name="_File_location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="Location" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="Duration" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="celltype" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="objective_lens" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="GrowthMedium" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="/var/www/html/TOS/TOS_BD-20150508_1414-V5.6.2/configuration/lib/java"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="true"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="fileName"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Location"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="objective_lens"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column comment="" key="false" length="0" name="fileName" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="Location" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="objective_lens" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMongoDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tMongoDBConnection_1" target="tMongoDBInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tMongoDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tMongoDBInput_1" target="tLogRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="CRC32"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lastAccessTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lastModifiedTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="creationTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="rootFolder"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder4"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder5"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder7"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder8"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fileName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fileExtension"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="_File_location"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Location"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Duration"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="celltype"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="objective_lens"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="GrowthMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMongoDBConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMongoDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

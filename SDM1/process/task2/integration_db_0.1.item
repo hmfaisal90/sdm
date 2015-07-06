@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
@@ -90,24 +90,7 @@
     <routinesParameter id="_rzgaICGoEeWnP56jEsC7xA" name="TalendDate"/>
     <routinesParameter id="_rzSXsCGoEeWnP56jEsC7xA" name="TalendString"/>
   </parameters>
-  <node componentName="tMongoDBConnection" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMongoDBConnection_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="/var/www/html/TOS/TOS_BD-20150508_1414-V5.6.2/configuration/lib/java"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MONGODB_2_6_X"/>
-    <elementParameter field="CHECK" name="USE_REPLICA_SET" value="false"/>
-    <elementParameter field="TABLE" name="REPLICA_SET"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="27017"/>
-    <elementParameter field="TEXT" name="DATABASE" value="&quot;load&quot;"/>
-    <elementParameter field="CHECK" name="USE_SSL" value="false"/>
-    <elementParameter field="CHECK" name="SET_READ_PREFERENCE" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="READ_PREFERENCE" value="PRIMARY"/>
-    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="false"/>
-    <elementParameter field="TEXT" name="USERNAME" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="0RMsyjmybrE="/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-  </node>
-  <node componentName="tMongoDBInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="224">
+  <node componentName="tMongoDBInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMongoDBInput_1"/>
     <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="/var/www/html/TOS/TOS_BD-20150508_1414-V5.6.2/configuration/lib/java"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
@@ -125,7 +108,7 @@
     <elementParameter field="TEXT" name="USERNAME" value="&quot;&quot;"/>
     <elementParameter field="PASSWORD" name="PASSWORD" value="0RMsyjmybrE="/>
     <elementParameter field="TEXT" name="COLLECTION" value="&quot;bio&quot;"/>
-    <elementParameter field="MEMO" name="QUERY" value="&quot;findQuery{}&quot;"/>
+    <elementParameter field="MEMO" name="QUERY" value="&quot;&quot;"/>
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="CRC32"/>
       <elementValue elementRef="PARENT_NODE_PATH" value=""/>
@@ -136,33 +119,33 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="creationTime"/>
       <elementValue elementRef="PARENT_NODE_PATH" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="rootFolder"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="subFolder0"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="subFolder1"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="subFolder2"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="subFolder3"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="subFolder4"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="subFolder5"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="subFolder6"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="subFolder7"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="subFolder8"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="subFolder9"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="fileName"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="fileExtension"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="_File_location"/>
-      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="measurementLocation"/>
       <elementValue elementRef="PARENT_NODE_PATH" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="measurementPosition"/>
@@ -188,46 +171,953 @@
     <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMongoDBInput_1">
-      <column comment="" key="false" length="0" name="CRC32" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="lastAccessTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="lastModifiedTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="creationTime" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="rootFolder" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="subFolder0" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="subFolder1" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="subFolder2" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="subFolder3" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="subFolder4" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="subFolder5" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="subFolder6" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="subFolder7" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="subFolder8" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="subFolder9" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="fileName" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="fileExtension" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="139" name="_File_location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="measurementLocation" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="measurementPosition" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="measurementTime" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="celltype" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="Zelltyp" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="lens" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="objective" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="suspensionMedium" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="0" name="cultureMedium" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="growthMedium" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="CRC32" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lastAccessTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lastModifiedTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="creationTime" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="rootFolder" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder0" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder1" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder2" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder3" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder4" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder5" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder6" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder7" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder8" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder9" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="fileName" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="fileExtension" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="139" name="_File_location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="measurementLocation" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="measurementPosition" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="measurementTime" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="celltype" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="Zelltyp" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lens" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="objective" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="suspensionMedium" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="cultureMedium" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="growthMedium" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="/var/www/html/TOS/TOS_BD-20150508_1414-V5.6.2/configuration/lib/java"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_mruMkCNLEeWcotfK6G9kjA-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="outd">
+      <column comment="" key="false" length="0" name="CRC32" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lastAccessTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lastModifiedTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="creationTime" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="rootFolder" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder0" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder1" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder2" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder3" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder4" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder5" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder6" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder7" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder8" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder9" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="fileName" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="fileExtension" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="139" name="_File_location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="measurementLocation" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="measurementPosition" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="measurementTime" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="celltype" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="Zelltyp" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lens" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="objective" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="suspensionMedium" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="cultureMedium" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="growthMedium" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables sizeState="INTERMEDIATE" name="Var">
+        <mapperTableEntries name="celltype" expression="((row1.celltype == null) ? &quot;&quot; : row1.celltype) " type="id_String"/>
+        <mapperTableEntries name="Zelltyp" expression="((row1.Zelltyp == null) ? &quot;&quot; : row1.Zelltyp) " type="id_String"/>
+        <mapperTableEntries name="measurementLocation" expression="((row1.measurementLocation == null) ? &quot;&quot; : row1.measurementLocation) " type="id_String"/>
+        <mapperTableEntries name="measurementPosition" expression="((row1.measurementPosition == null) ? &quot;&quot; : row1.measurementPosition) " type="id_String"/>
+        <mapperTableEntries name="measurementTime" expression="((row1.measurementTime == null) ? &quot;&quot; : row1.measurementTime) " type="id_String"/>
+        <mapperTableEntries name="lens" expression="((row1.lens == null) ? &quot;&quot; : row1.lens) " type="id_String"/>
+        <mapperTableEntries name="objective" expression="((row1.objective == null) ? &quot;&quot; : row1.objective) " type="id_String"/>
+        <mapperTableEntries name="suspensionMedium" expression="((row1.suspensionMedium == null) ? &quot;&quot; : row1.suspensionMedium) " type="id_String"/>
+        <mapperTableEntries name="cultureMedium" expression="((row1.cultureMedium == null) ? &quot;&quot; : row1.cultureMedium) " type="id_String"/>
+        <mapperTableEntries name="growthMedium" expression="((row1.growthMedium == null) ? &quot;&quot; : row1.growthMedium) " type="id_String"/>
+      </varTables>
+      <outputTables sizeState="INTERMEDIATE" name="outd">
+        <mapperTableEntries name="CRC32" expression="row1.CRC32" type="id_String" nullable="true"/>
+        <mapperTableEntries name="lastAccessTime" expression="row1.lastAccessTime" type="id_String" nullable="true"/>
+        <mapperTableEntries name="lastModifiedTime" expression="row1.lastModifiedTime" type="id_String" nullable="true"/>
+        <mapperTableEntries name="creationTime" expression="row1.creationTime" type="id_String" nullable="true"/>
+        <mapperTableEntries name="rootFolder" expression="row1.rootFolder" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder0" expression="row1.subFolder0" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder1" expression="row1.subFolder1" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder2" expression="row1.subFolder2" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder3" expression="row1.subFolder3" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder4" expression="row1.subFolder4" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder5" expression="row1.subFolder5" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder6" expression="row1.subFolder6" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder7" expression="row1.subFolder7" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder8" expression="row1.subFolder8" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder9" expression="row1.subFolder9" type="id_String" nullable="true"/>
+        <mapperTableEntries name="fileName" expression="row1.fileName" type="id_String" nullable="true"/>
+        <mapperTableEntries name="fileExtension" expression="row1.fileExtension" type="id_String" nullable="true"/>
+        <mapperTableEntries name="_File_location" expression="row1._File_location" type="id_String" nullable="true"/>
+        <mapperTableEntries name="measurementLocation" expression="Var.measurementLocation " type="id_String" nullable="true"/>
+        <mapperTableEntries name="measurementPosition" expression="Var.measurementPosition " type="id_String" nullable="true"/>
+        <mapperTableEntries name="measurementTime" expression="Var.measurementTime " type="id_String" nullable="true"/>
+        <mapperTableEntries name="celltype" expression="Var.celltype " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Zelltyp" expression="Var.Zelltyp " type="id_String" nullable="true"/>
+        <mapperTableEntries name="lens" expression="Var.lens " type="id_String" nullable="true"/>
+        <mapperTableEntries name="objective" expression="Var.objective " type="id_String" nullable="true"/>
+        <mapperTableEntries name="suspensionMedium" expression="Var.suspensionMedium " type="id_String" nullable="true"/>
+        <mapperTableEntries name="cultureMedium" expression="Var.cultureMedium " type="id_String" nullable="true"/>
+        <mapperTableEntries name="growthMedium" expression="Var.growthMedium " type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="CRC32" type="id_String" nullable="true"/>
+        <mapperTableEntries name="lastAccessTime" type="id_String" nullable="true"/>
+        <mapperTableEntries name="lastModifiedTime" type="id_String" nullable="true"/>
+        <mapperTableEntries name="creationTime" type="id_String" nullable="true"/>
+        <mapperTableEntries name="rootFolder" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder0" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder1" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder2" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder3" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder4" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder5" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder6" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder7" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder8" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder9" type="id_String" nullable="true"/>
+        <mapperTableEntries name="fileName" type="id_String" nullable="true"/>
+        <mapperTableEntries name="fileExtension" type="id_String" nullable="true"/>
+        <mapperTableEntries name="_File_location" type="id_String" nullable="true"/>
+        <mapperTableEntries name="measurementLocation" type="id_String" nullable="true"/>
+        <mapperTableEntries name="measurementPosition" type="id_String" nullable="true"/>
+        <mapperTableEntries name="measurementTime" type="id_String" nullable="true"/>
+        <mapperTableEntries name="celltype" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Zelltyp" type="id_String" nullable="true"/>
+        <mapperTableEntries name="lens" type="id_String" nullable="true"/>
+        <mapperTableEntries name="objective" type="id_String" nullable="true"/>
+        <mapperTableEntries name="suspensionMedium" type="id_String" nullable="true"/>
+        <mapperTableEntries name="cultureMedium" type="id_String" nullable="true"/>
+        <mapperTableEntries name="growthMedium" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tReplaceList" componentVersion="0.103" offsetLabelX="0" offsetLabelY="0" posX="480" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tReplaceList_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="/var/www/html/TOS/TOS_BD-20150508_1414-V5.6.2/configuration/lib/java"/>
+    <elementParameter field="LOOKUP_COLUMN_LIST" name="LOOKUP_SEARCH_COLUMN" value="synonym"/>
+    <elementParameter field="LOOKUP_COLUMN_LIST" name="LOOKUP_REPLACEMENT_COLUMN" value="Preferred_Name"/>
+    <elementParameter field="TABLE" name="COLUMN_OPTIONS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="CRC32"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="lastAccessTime"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="lastModifiedTime"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="creationTime"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="rootFolder"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder0"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder1"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder2"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder3"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder4"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder5"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder6"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder7"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder8"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder9"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="fileName"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="fileExtension"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_File_location"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="measurementLocation"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="measurementPosition"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="measurementTime"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="celltype"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Zelltyp"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="lens"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="objective"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="suspensionMedium"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cultureMedium"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="growthMedium"/>
+      <elementValue elementRef="REPLACE" value="true"/>
+      <elementValue elementRef="CASE_INSENSITIVE" value="true"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tReplaceList_1">
+      <column comment="" key="false" length="0" name="CRC32" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lastAccessTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lastModifiedTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="creationTime" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="rootFolder" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder0" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder1" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder2" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder3" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder4" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder5" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder6" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder7" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder8" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder9" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="fileName" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="fileExtension" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="139" name="_File_location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="measurementLocation" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="measurementPosition" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="measurementTime" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="celltype" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="Zelltyp" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lens" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="objective" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="suspensionMedium" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="cultureMedium" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="growthMedium" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="/var/www/html/TOS/TOS_BD-20150508_1414-V5.6.2/configuration/lib/java"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_9uQcoCNiEeWcotfK6G9kjA"/>
+    <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/var/www/html/sdm/task question/synonyms.xlsx&quot;"/>
+    <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
+    <elementParameter field="TABLE" name="SHEETLIST"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="AFFECT_EACH_SHEET" value="false"/>
+    <elementParameter field="TEXT" name="FIRST_COLUMN" value="1"/>
+    <elementParameter field="TEXT" name="LAST_COLUMN" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_9uQcoCNiEeWcotfK6G9kjA - metadata_synonym"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_9uQcoCNiEeWcotfK6G9kjA - metadata_synonym"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Preferred_Name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="synonym"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CONVERTDATETOSTRING" value="false"/>
+    <elementParameter field="TABLE" name="DATESELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Preferred_Name"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="synonym"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+    </elementParameter>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="READ_REAL_VALUE" value="false"/>
+    <elementParameter field="CHECK" name="STOPREAD_ON_EMPTYROW" value="false"/>
+    <elementParameter field="CHECK" name="NOVALIDATE_ON_CELL" value="false"/>
+    <elementParameter field="CHECK" name="SUPPRESS_WARN" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
+    <elementParameter field="TEXT" name="LABEL" value="synonym"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata_synonym" name="tFileInputExcel_1">
+      <column comment="" key="false" length="29" name="Preferred_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="synonym" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata_synonym" name="REJECT">
+      <column comment="" key="false" length="29" name="Preferred_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="synonym" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="384" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="/var/www/html/TOS/TOS_BD-20150508_1414-V5.6.2/configuration/lib/java"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_mruMkCNLEeWcotfK6G9kjA-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out1">
+      <column comment="" key="false" length="0" name="CRC32" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lastAccessTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lastModifiedTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="creationTime" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="rootFolder" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder0" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder1" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder2" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder3" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder4" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder5" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder6" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder7" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder8" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder9" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="fileName" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="fileExtension" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="139" name="_File_location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="Location" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="Duration" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="celltype" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="objective_lens" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="GrowthMedium" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var">
+        <mapperTableEntries name="celltype" expression="row3.Zelltyp+&quot;&quot;+row3.celltype " type="id_String"/>
+        <mapperTableEntries name="location" expression="row3.measurementPosition+&quot;&quot;+row3.measurementLocation " type="id_String"/>
+        <mapperTableEntries name="objectivelens" expression="row3.objective+&quot;&quot;+row3.lens " type="id_String"/>
+        <mapperTableEntries name="medium" expression="row3.growthMedium+&quot;&quot;+row3.cultureMedium+&quot;&quot;+row3.suspensionMedium " type="id_String"/>
+      </varTables>
+      <outputTables sizeState="INTERMEDIATE" name="out1">
+        <mapperTableEntries name="CRC32" expression="row3.CRC32 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="lastAccessTime" expression="row3.lastAccessTime " type="id_String" nullable="true"/>
+        <mapperTableEntries name="lastModifiedTime" expression="row3.lastModifiedTime " type="id_String" nullable="true"/>
+        <mapperTableEntries name="creationTime" expression="row3.creationTime " type="id_String" nullable="true"/>
+        <mapperTableEntries name="rootFolder" expression="row3.rootFolder " type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder0" expression="row3.subFolder0 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder1" expression="row3.subFolder1 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder2" expression="row3.subFolder2 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder3" expression="row3.subFolder3 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder4" expression="row3.subFolder4 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder5" expression="row3.subFolder5 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder6" expression="row3.subFolder6 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder7" expression="row3.subFolder7 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder8" expression="row3.subFolder8 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder9" expression="row3.subFolder9 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="fileName" expression="row3.fileName " type="id_String" nullable="true"/>
+        <mapperTableEntries name="fileExtension" expression="row3.fileExtension " type="id_String" nullable="true"/>
+        <mapperTableEntries name="_File_location" expression="row3._File_location " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Location" expression="Var.location " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Duration" expression="row3.measurementTime " type="id_String" nullable="true"/>
+        <mapperTableEntries name="celltype" expression="Var.celltype " type="id_String" nullable="true"/>
+        <mapperTableEntries name="objective_lens" expression="Var.objectivelens " type="id_String" nullable="true"/>
+        <mapperTableEntries name="GrowthMedium" expression="Var.medium " type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row3" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="CRC32" type="id_String" nullable="true"/>
+        <mapperTableEntries name="lastAccessTime" type="id_String" nullable="true"/>
+        <mapperTableEntries name="lastModifiedTime" type="id_String" nullable="true"/>
+        <mapperTableEntries name="creationTime" type="id_String" nullable="true"/>
+        <mapperTableEntries name="rootFolder" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder0" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder1" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder2" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder3" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder4" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder5" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder6" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder7" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder8" type="id_String" nullable="true"/>
+        <mapperTableEntries name="subFolder9" type="id_String" nullable="true"/>
+        <mapperTableEntries name="fileName" type="id_String" nullable="true"/>
+        <mapperTableEntries name="fileExtension" type="id_String" nullable="true"/>
+        <mapperTableEntries name="_File_location" type="id_String" nullable="true"/>
+        <mapperTableEntries name="measurementLocation" type="id_String" nullable="true"/>
+        <mapperTableEntries name="measurementPosition" type="id_String" nullable="true"/>
+        <mapperTableEntries name="measurementTime" type="id_String" nullable="true"/>
+        <mapperTableEntries name="celltype" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Zelltyp" type="id_String" nullable="true"/>
+        <mapperTableEntries name="lens" type="id_String" nullable="true"/>
+        <mapperTableEntries name="objective" type="id_String" nullable="true"/>
+        <mapperTableEntries name="suspensionMedium" type="id_String" nullable="true"/>
+        <mapperTableEntries name="cultureMedium" type="id_String" nullable="true"/>
+        <mapperTableEntries name="growthMedium" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMongoDBOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMongoDBOutput_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="/var/www/html/TOS/TOS_BD-20150508_1414-V5.6.2/configuration/lib/java"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMongoDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MONGODB_2_6_X"/>
+    <elementParameter field="CHECK" name="USE_REPLICA_SET" value="false"/>
+    <elementParameter field="TABLE" name="REPLICA_SET"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="27017"/>
+    <elementParameter field="TEXT" name="DATABASE" value="&quot;load&quot;"/>
+    <elementParameter field="CHECK" name="USE_SSL" value="false"/>
+    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="false"/>
+    <elementParameter field="TEXT" name="USERNAME" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="0RMsyjmybrE="/>
+    <elementParameter field="TEXT" name="COLLECTION" value="&quot;biodata&quot;"/>
+    <elementParameter field="CHECK" name="DROP_COLLECTION_CREATE" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="CRC32"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="lastAccessTime"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="lastModifiedTime"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="creationTime"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="rootFolder"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder0"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder1"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder2"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder3"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder4"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder5"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder6"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder7"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder8"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subFolder9"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="fileName"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="fileExtension"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_File_location"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value="&quot;filedetails&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Location"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Duration"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="celltype"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="objective_lens"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GrowthMedium"/>
+      <elementValue elementRef="PARENT_NODE_PATH" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="false"/>
+    <elementParameter field="TABLE" name="ROOT"/>
+    <elementParameter field="TABLE" name="GROUP"/>
+    <elementParameter field="TABLE" name="LOOP"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="TABLE" name="GROUPBYS"/>
+    <elementParameter field="CHECK" name="REMOVE_ROOT" value="true"/>
+    <elementParameter field="TEXT" name="DATA_NODE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_NODE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="COMPACT_FORMAT" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tMongoDBOutput_1">
+      <column comment="" key="false" length="0" name="CRC32" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lastAccessTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="lastModifiedTime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="creationTime" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="rootFolder" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder0" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder1" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder2" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder3" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder4" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder5" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder6" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder7" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder8" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="subFolder9" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="fileName" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="fileExtension" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="139" name="_File_location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="Location" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="Duration" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="celltype" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="objective_lens" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="GrowthMedium" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMongoDBConnection" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMongoDBConnection_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="/var/www/html/TOS/TOS_BD-20150508_1414-V5.6.2/configuration/lib/java"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MONGODB_2_6_X"/>
+    <elementParameter field="CHECK" name="USE_REPLICA_SET" value="false"/>
+    <elementParameter field="TABLE" name="REPLICA_SET"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="27017"/>
+    <elementParameter field="TEXT" name="DATABASE" value="&quot;load&quot;"/>
+    <elementParameter field="CHECK" name="USE_SSL" value="false"/>
+    <elementParameter field="CHECK" name="SET_READ_PREFERENCE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="READ_PREFERENCE" value="PRIMARY"/>
+    <elementParameter field="CHECK" name="REQUIRED_AUTHENTICATION" value="false"/>
+    <elementParameter field="TEXT" name="USERNAME" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="0RMsyjmybrE="/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tMongoDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tMongoDBInput_1" target="tMap_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="CRC32"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lastAccessTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lastModifiedTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="creationTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="rootFolder"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder4"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder5"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder7"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder8"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fileName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fileExtension"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="_File_location"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="measurementLocation"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="measurementPosition"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="measurementTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="celltype"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Zelltyp"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lens"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="objective"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="suspensionMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="cultureMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="growthMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="outd" lineStyle="0" metaname="outd" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tReplaceList_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="CRC32"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lastAccessTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lastModifiedTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="creationTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="rootFolder"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder4"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder5"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder7"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder8"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fileName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fileExtension"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="_File_location"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="measurementLocation"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="measurementPosition"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="measurementTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="celltype"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Zelltyp"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lens"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="objective"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="suspensionMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="cultureMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="growthMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="outd"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tReplaceList_1" offsetLabelX="0" offsetLabelY="0" source="tReplaceList_1" target="tMap_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="CRC32"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lastAccessTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lastModifiedTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="creationTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="rootFolder"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder4"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder5"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder7"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder8"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fileName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fileExtension"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="_File_location"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="measurementLocation"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="measurementPosition"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="measurementTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="celltype"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Zelltyp"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lens"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="objective"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="suspensionMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="cultureMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="growthMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tFileInputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_1" target="tReplaceList_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="Preferred_Name"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="synonym"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tMongoDBOutput_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="CRC32"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lastAccessTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lastModifiedTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="creationTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="rootFolder"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder4"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder5"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder7"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder8"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="subFolder9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fileName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fileExtension"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="_File_location"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Location"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Duration"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="celltype"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="objective_lens"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="GrowthMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="growthMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="cultureMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="objective"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="measurementTime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="suspensionMedium"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="measurementPosition"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Zelltyp"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="lens"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Location"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1"/>
+  </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMongoDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tMongoDBConnection_1" target="tMongoDBInput_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1"/>
   </connection>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMongoDBConnection_1"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMongoDBInput_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMongoDBInput_1"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMongoDBConnection_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>

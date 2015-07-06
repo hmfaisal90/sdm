@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_9uRDsCNiEeWcotfK6G9kjA" name="synonym" dataPackage="_9uRDsSNiEeWcotfK6G9kjA" Server="Localhost 127.0.0.1" FilePath="/var/www/html/sdm/task question/synonyms.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Tabelle1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Tabelle1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_9uRDsSNiEeWcotfK6G9kjA" name="default" dataManager="_9uRDsCNiEeWcotfK6G9kjA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9uRDsiNiEeWcotfK6G9kjA" id="_xbg4oCNiEeWcotfK6G9kjA" label="metadata_synonym">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9uRDsyNiEeWcotfK6G9kjA" label="Preferred_Name" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9uRDtCNiEeWcotfK6G9kjA" label="synonym" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

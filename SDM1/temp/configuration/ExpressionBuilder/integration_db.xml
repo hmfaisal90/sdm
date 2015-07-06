@@ -1,0 +1,34 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row3.growthMedium+&quot;&quot;+row3.cultureMedium+&quot;&quot;+row3.suspensionMedium">
+  <variables name="row3.CRC32" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.lastAccessTime" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.lastModifiedTime" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.creationTime" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.rootFolder" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.subFolder0" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.subFolder1" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.subFolder2" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.subFolder3" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.subFolder4" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.subFolder5" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.subFolder6" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.subFolder7" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.subFolder8" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.subFolder9" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.fileName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.fileExtension" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3._File_location" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.measurementLocation" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.measurementPosition" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.measurementTime" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.celltype" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Zelltyp" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.lens" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.objective" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.suspensionMedium" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.cultureMedium" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.growthMedium" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Zelltyp+&quot;&quot;+row3.celltype " value="null" talendType="id_String"/>
+  <variables name="row3.measurementPosition+&quot;&quot;+row3.measurementLocation " value="null" talendType="id_String"/>
+  <variables name="row3.objective+&quot;&quot;+row3.lens " value="null" talendType="id_String"/>
+</expression:EMFExpression>
